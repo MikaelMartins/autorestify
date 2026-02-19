@@ -94,7 +94,7 @@ DELETE /clientes/{id}
 
 ## 🧠 Architecture Overview
 
-Autorestify is built with:
+AutoRESTify is built with:
 
 - FastAPI
 - SQLAlchemy

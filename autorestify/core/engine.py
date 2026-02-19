@@ -1,5 +1,5 @@
 """
-Engine module for Autorestify.
+Engine module for AutoRESTify.
 
 Responsible for deterministic type detection based on Python types.
 No AI dependencies.

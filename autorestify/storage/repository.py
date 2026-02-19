@@ -1,5 +1,5 @@
 """
-Repository layer for Autorestify.
+Repository layer for AutoRESTify.
 
 Responsible for:
 - Creating tables from schema

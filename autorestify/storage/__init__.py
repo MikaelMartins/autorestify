@@ -1,5 +1,5 @@
 """
-Storage layer for Autorestify.
+Storage layer for AutoRESTify.
 """
 
 from .base import Database

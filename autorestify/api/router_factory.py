@@ -1,5 +1,5 @@
 """
-Router Factory for Autorestify.
+Router Factory for AutoRESTify.
 
 Uses generic collection-based routes implemented via FastAPI.
 """
@@ -32,7 +32,7 @@ def create_router(
 
     @router.get("/")
     async def health():
-        return {"status": "Autorestify running"}
+        return {"status": "AutoRESTify running"}
 
     # ----------------------------------
     # Upload (register collection)

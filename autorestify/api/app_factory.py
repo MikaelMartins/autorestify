@@ -1,5 +1,5 @@
 """
-Application Factory for Autorestify.
+Application Factory for AutoRESTify.
 
 This module is responsible for creating and configuring
 the FastAPI application instance.
@@ -19,7 +19,7 @@ def create_app() -> FastAPI:
     """
 
     app = FastAPI(
-        title="Autorestify",
+        title="AutoRESTify",
         description="Dynamic API generator from JSON models with automatic schema inference.",
         version="1.0.0",
     )

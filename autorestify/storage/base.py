@@ -1,5 +1,5 @@
 """
-Database base configuration for Autorestify.
+Database base configuration for AutoRESTify.
 
 Responsible for:
 - SQLAlchemy engine creation

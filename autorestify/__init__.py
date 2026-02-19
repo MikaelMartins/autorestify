@@ -1,5 +1,5 @@
 """
-Autorestify
+AutoRESTify
 
 Dynamic API generator from JSON models with automatic schema inference.
 

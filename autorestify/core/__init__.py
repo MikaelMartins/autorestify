@@ -1,5 +1,5 @@
 """
-Core layer for Autorestify.
+Core layer for AutoRESTify.
 
 Contains:
 - Engine

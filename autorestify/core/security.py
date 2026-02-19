@@ -1,5 +1,5 @@
 """
-Security abstractions for Autorestify.
+Security abstractions for AutoRESTify.
 
 Defines pluggable authentication and authorization system.
 """

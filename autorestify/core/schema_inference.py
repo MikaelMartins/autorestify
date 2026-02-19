@@ -1,5 +1,5 @@
 """
-Schema inference module for Autorestify.
+Schema inference module for AutoRESTify.
 
 Responsible for generating a unified schema from
 a list of JSON-like documents.

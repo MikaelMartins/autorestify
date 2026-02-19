@@ -1,5 +1,5 @@
 """
-Dynamic model factory for Autorestify.
+Dynamic model factory for AutoRESTify.
 
 Responsible for generating SQLAlchemy models dynamically
 based on inferred schema.

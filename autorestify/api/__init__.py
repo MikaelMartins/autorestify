@@ -1,5 +1,5 @@
 """
-API layer for Autorestify.
+API layer for AutoRESTify.
 
 Contains:
 - Application factory

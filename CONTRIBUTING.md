@@ -1,5 +1,5 @@
 ```markdown
-# Contributing to Autorestify
+# Contributing to AutoRESTify
 
 Thank you for considering contributing!
 

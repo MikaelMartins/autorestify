@@ -1,4 +1,4 @@
-"""Autorestify - Application Entrypoint
+"""AutoRESTify - Application Entrypoint
 
 This module allows running the API server directly using:
 
@@ -17,7 +17,7 @@ def run(
     reload: bool = True,
 ) -> None:
     """
-    Run the Autorestify server.
+    Run the AutoRESTify server.
 
     Args:
         host: Server host
