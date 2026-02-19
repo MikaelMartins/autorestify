@@ -7,7 +7,7 @@ This project adheres to Semantic Versioning.
 
 ---
 
-## [0.1.0] - 2026-02-18
+## [1.0.0] - 2026-02-18
 
 ### Added
 - Dynamic REST router factory
@@ -18,6 +18,11 @@ This project adheres to Semantic Versioning.
 - Pytest test suite
 - In-memory SQLite test isolation
 
+## [1.0.1] - 2026-02-18
 ### Security
 - Default security provider
 - Extensible auth provider interface
+
+## [1.0.2] - 2026-02-18
+### Nomenclature
+- Nomenclature Correction
