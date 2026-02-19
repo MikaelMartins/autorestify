@@ -27,12 +27,19 @@ Install from PyPI:
 pip install autorestify
 ```
 
+With uvicorn server:
+
+```bash
+pip install autorestify[server]
+```
+
 Or install locally for development:
 
 ```bash
 git clone https://github.com/MikaelMartins/autorestify.git
 cd autorestify
 pip install -e .
+pip install uvicorn
 ```
 
 ---
@@ -161,5 +168,5 @@ MIT License
 
 ## 👨‍💻 Author
 
-Mikael Martins — Backend Developer | Python | FastAPI | Architecture
+Mikael Aurio Martins — Software Developer
 
