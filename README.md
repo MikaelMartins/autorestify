@@ -1,8 +1,8 @@
 # AutoRESTify
 
-Turn JSON collections into dynamic REST APIs automatically.
+**The High-Performance Runtime Engine for Persistent REST APIs.**
 
-AutoRESTify generates fully functional REST endpoints from structured JSON documents with automatic schema inference, SQLite persistence, and a pluggable security layer.
+AutoRESTify is an execution engine that transforms JSON collections into complete, persistent, and secure REST APIs. Unlike static code generators, AutoRESTify manages the data lifecycle in real time.
 
 ---
 
@@ -14,7 +14,7 @@ AutoRESTify generates fully functional REST endpoints from structured JSON docum
 - Proper in-memory test isolation
 - Pluggable security architecture
 - Full CRUD support
-- 100% tested core
+- Conexão SQLAlchemy (PostgreSQL, MySQL, SQLite, ...)
 - CI with GitHub Actions
 
 ---
@@ -153,10 +153,9 @@ pytest -v
 - Filtering support
 - Pagination
 - Ordering
+- Async storage engine
 - RBAC
 - Multi-tenant architecture
-- PostgreSQL support
-- Async storage engine
 
 ---
 
@@ -169,4 +168,3 @@ MIT License
 ## 👨‍💻 Author
 
 Mikael Aurio Martins — Software Developer
-
