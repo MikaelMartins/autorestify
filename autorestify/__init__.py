@@ -1,5 +1,5 @@
 """
-Model2API
+Autorestify
 
 Dynamic API generator from JSON models with automatic schema inference.
 
@@ -12,4 +12,4 @@ __all__ = [
     "create_app",
 ]
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"

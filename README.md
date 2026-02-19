@@ -1,8 +1,8 @@
-# Model2API
+# AutoRESTify
 
 Turn JSON collections into dynamic REST APIs automatically.
 
-Model2API generates fully functional REST endpoints from structured JSON documents with automatic schema inference, SQLite persistence, and a pluggable security layer.
+AutoRESTify generates fully functional REST endpoints from structured JSON documents with automatic schema inference, SQLite persistence, and a pluggable security layer.
 
 ---
 
@@ -24,14 +24,14 @@ Model2API generates fully functional REST endpoints from structured JSON documen
 Install from PyPI:
 
 ```bash
-pip install model2api
+pip install autorestify
 ```
 
 Or install locally for development:
 
 ```bash
-git clone https://github.com/MikaelMartins/model2api.git
-cd model2api
+git clone https://github.com/MikaelMartins/autorestify.git
+cd autorestify
 pip install -e .
 ```
 
@@ -41,7 +41,7 @@ pip install -e .
 
 ```py
 from fastapi import FastAPI
-from model2api.api.router_factory import create_router
+from autorestify.api.router_factory import create_router
 
 app = FastAPI()
 
@@ -87,7 +87,7 @@ DELETE /clientes/{id}
 
 ## 🧠 Architecture Overview
 
-Model2API is built with:
+Autorestify is built with:
 
 - FastAPI
 - SQLAlchemy
@@ -98,7 +98,7 @@ Model2API is built with:
 Core modules:
 
 ```
-model2api/
+autorestify/
   api/
   core/
   storage/
@@ -119,7 +119,7 @@ pytest -v
 Run with coverage reporting:
 
 ```bash
-pytest --cov=model2api --cov-report=term-missing
+pytest --cov=autorestify --cov-report=term-missing
 ```
 
 ---

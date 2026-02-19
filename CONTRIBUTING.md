@@ -1,4 +1,5 @@
-# Contributing to Model2API
+```markdown
+# Contributing to Autorestify
 
 Thank you for considering contributing!
 
@@ -7,5 +8,9 @@ Thank you for considering contributing!
 Clone the repository:
 
 ```bash
-git clone https://github.com/MikaelMartins/model2api.git
-cd model2api
+git clone https://github.com/MikaelMartins/autorestify.git
+cd autorestify
+
+```
+
+```

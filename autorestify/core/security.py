@@ -1,5 +1,5 @@
 """
-Security abstractions for Model2API.
+Security abstractions for Autorestify.
 
 Defines pluggable authentication and authorization system.
 """

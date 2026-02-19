@@ -1,5 +1,5 @@
 """
-Repository layer for Model2API.
+Repository layer for Autorestify.
 
 Responsible for:
 - Creating tables from schema

@@ -1,5 +1,5 @@
 """
-Core layer for Model2API.
+Core layer for Autorestify.
 
 Contains:
 - Engine

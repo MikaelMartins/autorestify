@@ -3,7 +3,7 @@ from fastapi import Request
 from starlette.datastructures import Headers
 from starlette.requests import Request as StarletteRequest
 
-from model2api.core.security import SecurityManager
+from autorestify.core.security import SecurityManager
 
 
 class DummyScope(dict):

@@ -1,6 +1,6 @@
 import pytest
 
-from model2api.core.schema_inference import SchemaInferer
+from autorestify.core.schema_inference import SchemaInferer
 
 
 def test_infer_simple_schema():

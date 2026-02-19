@@ -1,18 +1,17 @@
 """
-Router Factory for Model2API.
+Router Factory for Autorestify.
 
-Uses generic collection-based routes instead of
-dynamically creating routes at runtime.
+Uses generic collection-based routes implemented via FastAPI.
 """
 
 from typing import Any, Dict
 
 from fastapi import APIRouter, HTTPException, Body, Request
 
-from model2api.core.schema_inference import SchemaInferer
-from model2api.core.security import SecurityManager
-from model2api.storage.base import Database
-from model2api.storage.repository import Repository
+from autorestify.core.schema_inference import SchemaInferer
+from autorestify.core.security import SecurityManager
+from autorestify.storage.base import Database
+from autorestify.storage.repository import Repository
 
 
 def create_router(
@@ -33,7 +32,7 @@ def create_router(
 
     @router.get("/")
     async def health():
-        return {"status": "Model2API running"}
+        return {"status": "Autorestify running"}
 
     # ----------------------------------
     # Upload (register collection)

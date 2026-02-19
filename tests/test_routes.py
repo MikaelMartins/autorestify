@@ -2,8 +2,8 @@ import pytest
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
 
-from model2api.api.router_factory import create_router
-from model2api.storage.base import Database
+from autorestify.api.router_factory import create_router
+from autorestify.storage.base import Database
 
 
 @pytest.fixture

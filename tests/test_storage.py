@@ -1,7 +1,7 @@
 import pytest
 
-from model2api.storage.base import Database
-from model2api.storage.repository import Repository
+from autorestify.storage.base import Database
+from autorestify.storage.repository import Repository
 
 
 def test_crud_operations(tmp_path):

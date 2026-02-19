@@ -1,5 +1,5 @@
 """
-API layer for Model2API.
+API layer for Autorestify.
 
 Contains:
 - Application factory

@@ -1,5 +1,5 @@
 """
-Engine module for Model2API.
+Engine module for Autorestify.
 
 Responsible for deterministic type detection based on Python types.
 No AI dependencies.

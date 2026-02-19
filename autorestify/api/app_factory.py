@@ -1,5 +1,5 @@
 """
-Application Factory for Model2API.
+Application Factory for Autorestify.
 
 This module is responsible for creating and configuring
 the FastAPI application instance.
@@ -7,7 +7,7 @@ the FastAPI application instance.
 
 from fastapi import FastAPI
 
-from model2api.api.router_factory import create_router
+from autorestify.api.router_factory import create_router
 
 
 def create_app() -> FastAPI:
@@ -19,7 +19,7 @@ def create_app() -> FastAPI:
     """
 
     app = FastAPI(
-        title="Model2API",
+        title="Autorestify",
         description="Dynamic API generator from JSON models with automatic schema inference.",
         version="1.0.0",
     )

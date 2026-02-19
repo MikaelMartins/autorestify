@@ -1,15 +1,14 @@
-"""
-Model2API - Application Entrypoint
+"""Autorestify - Application Entrypoint
 
 This module allows running the API server directly using:
 
-    python -m model2api.main
+    python -m autorestify.main
 
 It uses the default application factory.
 """
 
 import uvicorn
-from model2api.api.app_factory import create_app
+from autorestify.api.app_factory import create_app
 
 
 def run(
@@ -18,7 +17,7 @@ def run(
     reload: bool = True,
 ) -> None:
     """
-    Run the Model2API server.
+    Run the Autorestify server.
 
     Args:
         host: Server host

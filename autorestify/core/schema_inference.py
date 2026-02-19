@@ -1,5 +1,5 @@
 """
-Schema inference module for Model2API.
+Schema inference module for Autorestify.
 
 Responsible for generating a unified schema from
 a list of JSON-like documents.

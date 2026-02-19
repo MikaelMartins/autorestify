@@ -1,5 +1,5 @@
 """
-Database base configuration for Model2API.
+Database base configuration for Autorestify.
 
 Responsible for:
 - SQLAlchemy engine creation
@@ -25,7 +25,7 @@ class Database:
 
     def __init__(
         self,
-        database_url: str = "sqlite:///./model2api.db",
+        database_url: str = "sqlite:///./autorestify.db",
         echo: bool = False,
     ) -> None:
         """
